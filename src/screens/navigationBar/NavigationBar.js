@@ -8,11 +8,27 @@ import {navigationLinks} from '../../helpers/navigationLinks'
 function NavigationBar() {
   return (
     <div id="home">
-        <Navbar>
+        <Navbar expand="md">
             <Navbar.Brand href="#home">adagun</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav>
+                {createLinks()}
+                </Nav>
+
+            </Navbar.Collapse>
         </Navbar>
     </div>
   )
 }
+
+
+function createLinks()
+{
+    return navigationLinks.map((element, index) => (
+        <Nav.Link key={index} href={element.ref}>{element.name}</Nav.Link>
+    ))
+}
+
 
 export default NavigationBar
