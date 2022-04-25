@@ -2,13 +2,13 @@ import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import {navigationLinks} from '../../helpers/navigationLinks'
-
+import './navigation.css'
 
 
 function NavigationBar() {
   return (
     <div id="home">
-        <Navbar expand="md">
+        <Navbar className="navigation_container" expand="md">
             <Navbar.Brand href="#home">adagun</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

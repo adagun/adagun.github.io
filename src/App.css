@@ -1,0 +1,8 @@
+:root {
+  --nav-color: hsl(210, 72%, 25%);
+  --nav-color-hover: hsl(315, 92%, 39%);
+  --nav-border-color: hsl(209, 27%, 59%);
+  --light-color: hsl(209, 31%, 82%);
+  --font-color: hsl(245, 19%, 74%);
+  --font-color-hover: hsl(0, 50%, 26%);
+}
