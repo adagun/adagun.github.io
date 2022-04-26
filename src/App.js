@@ -27,5 +27,7 @@ function App() {
 
 export default App;
 
-//   <ParticlesBackground/>
+
+
+// todo add more css variables
      
