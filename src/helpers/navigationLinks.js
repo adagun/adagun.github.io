@@ -4,8 +4,8 @@ export const navigationLinks = [
         red: '#home'
     },
     {
-        name: 'ABOUT',
-        red: '#about'
+        name: 'GITHUB',
+        red: '#github'
     },
     {
         name: 'PROJECTS',
