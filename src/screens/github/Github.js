@@ -10,9 +10,7 @@ function Github() {
       </div>
       <div className="github_text">
         <h1>Github</h1>
-
       </div>
-
     </div>
   )
 }

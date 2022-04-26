@@ -4,7 +4,7 @@ import Navigation from './screens/navigationBar/NavigationBar'
 import  ParticlesBackground  from './components/ParticlesBackground';
 import Header from './screens/header/Header'
 import Github from './screens/github/Github'
-
+import Projects from './screens/projects/Projects';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       
     </Header>
       <Github/>
-      
+      <Projects/>
     </div>
     <ParticlesBackground/>
     </div>
