@@ -8,7 +8,9 @@ import './navigation.css'
 function NavigationBar() {
   return (
     <div id="home">
-        <Navbar className="navigation_container" expand="md">
+        <Navbar className="navigation_container" expand="md"
+        style={{zIndex: '2', position: 'fixed', top: 0, width: '100%'}}
+        collapseOnSelect>
             <Navbar.Brand href="#home">adagun</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

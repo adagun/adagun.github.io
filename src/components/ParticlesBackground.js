@@ -8,7 +8,7 @@ import { loadOpacityUpdater } from "tsparticles-updater-opacity";
 import { loadOutModesUpdater } from "tsparticles-updater-out-modes";
 
 import particlesConfig from './config/particles-config.json'
-
+import './particles.css'
 
 export default function ParticleBackground() {
   async function particlesInit(engine) {
@@ -22,12 +22,15 @@ export default function ParticleBackground() {
 
   return (
     
-    <Particles
+    <Particles className="particles"
       init={particlesInit}
       options={{
         fpsLimit: 60,
         background: {
-          color: "#000"
+          color: {
+            value: "#000",
+          },
+      
         },
         particles: {
           color: { value: "#ffffff" },
@@ -56,4 +59,4 @@ export default function ParticleBackground() {
 }
 
   
-  //  options=
+  //  options={{particlesConfig}}
