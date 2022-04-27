@@ -4,6 +4,7 @@ import ParticlesBackground from "./components/ParticlesBackground";
 import Header from "./screens/header/Header";
 import Github from "./screens/github/Github";
 import Projects from "./screens/projects/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Github />
         <Projects />
       </div>
+      <Footer/>
       <ParticlesBackground />
     </div>
   );
