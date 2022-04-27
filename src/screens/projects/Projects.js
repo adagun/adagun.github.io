@@ -2,16 +2,17 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import "./projects.css";
-import image1 from "../../images/1.png";
-import image2 from "../../images/2.png";
-import image3 from "../../images/3.png";
-import image4 from "../../images/4.png";
+import projectsData from "../../helpers/projectsData";
 
 function Projects() {
   return (
     <div>
       <div className="project-text">
         <h1>Projects</h1>
+        <h1>     
+        
+       
+       </h1>
       </div>
       <Carousel
         className="main-slide"
@@ -21,21 +22,22 @@ function Projects() {
         infiniteLoop={true}
       >
         <div>
-          <img src={image1} alt="Mouse" />
-          <p className="legend">Mouse</p>
+          <img src={projectsData[0].image} alt={projectsData[0].title} />
+          <p className="legend">{projectsData[0].summary}</p>
         </div>
         <div>
-          <img src={image2} alt="Koala" />
-          <p className="legend">Koala</p>
+          <img src={projectsData[1].image} alt={projectsData[1].title} />
+          <p className="legend">{projectsData[1].summary}</p>
         </div>
         <div>
-          <img src={image3} alt="Cat" />
-          <p className="legend">Cat</p>
+          <img src={projectsData[2].image} alt={projectsData[2].title} />
+          <p className="legend">{projectsData[2].summary}</p>
         </div>
         <div>
-          <img src={image4} alt="Squirrel" />
-          <p className="legend">Squirrel</p>
+          <img src={projectsData[3].image} alt={projectsData[3].title} />
+          <p className="legend">{projectsData[3].summary}</p>
         </div>
+    
       </Carousel>
     </div>
   );
