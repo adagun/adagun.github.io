@@ -9,10 +9,7 @@ function Projects() {
     <div>
       <div className="project-text">
         <h1>Projects</h1>
-        <h1>     
-        
-       
-       </h1>
+        <h1></h1>
       </div>
       <Carousel
         className="main-slide"
@@ -21,23 +18,12 @@ function Projects() {
         showThumbs={false}
         infiniteLoop={true}
       >
-        <div>
-          <img src={projectsData[0].image} alt={projectsData[0].title} />
-          <p className="legend">{projectsData[0].summary}</p>
-        </div>
-        <div>
-          <img src={projectsData[1].image} alt={projectsData[1].title} />
-          <p className="legend">{projectsData[1].summary}</p>
-        </div>
-        <div>
-          <img src={projectsData[2].image} alt={projectsData[2].title} />
-          <p className="legend">{projectsData[2].summary}</p>
-        </div>
-        <div>
-          <img src={projectsData[3].image} alt={projectsData[3].title} />
-          <p className="legend">{projectsData[3].summary}</p>
-        </div>
-    
+        {projectsData.map((project, index) => (
+          <div>
+            <img src={project.image} alt={project.title} />
+            <p className="legend">{project.summary}</p>
+          </div>
+        ))}
       </Carousel>
     </div>
   );
