@@ -8,8 +8,8 @@ import { loadOpacityUpdater } from "tsparticles-updater-opacity";
 import { loadOutModesUpdater } from "tsparticles-updater-out-modes";
 import { loadImageShape } from "tsparticles-shape-image";
 
-import particlesConfig from './config/particles-config'
-import './particles.css'
+import particlesConfig from "./config/particles-config";
+import "./particles.css";
 
 export default function ParticleBackground() {
   async function particlesInit(engine) {
@@ -20,17 +20,15 @@ export default function ParticleBackground() {
     await loadSizeUpdater(engine);
     await loadOpacityUpdater(engine);
     await loadOutModesUpdater(engine);
- 
   }
 
   return (
-    
-    <Particles className="particles"
+    <Particles
+      className="particles"
       init={particlesInit}
-      options={particlesConfig }
+      options={particlesConfig}
     />
   );
 }
 
-  
-  //  options={{particlesConfig}}
+//  options={{particlesConfig}}

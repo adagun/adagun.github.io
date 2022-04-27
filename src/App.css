@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 .App {
-  font-family: 'Open Sans', sans-serif;
-
-  
+  font-family: "Open Sans", sans-serif;
 }
 
 :root {
   --nav-color: hsl(212, 31%, 35%);
   --nav-color-hover: hsl(212, 50%, 21%);
   --nav-border-color: hsl(209, 27%, 59%);
-  --light-color: 	hsl(32, 46%, 23%);
+  --light-color: hsl(32, 46%, 23%);
   --font-color: hsl(253, 23%, 76%);
   --font-color-hover: hsl(212, 50%, 21%);
 }

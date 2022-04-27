@@ -1,18 +1,15 @@
-.main-text{
-    display: flex;
-   
-    color: var(--font-color);
-    z-index: 1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top:275px;
-    margin-bottom:275px;
-  
-	
-}
+.main-text {
+  display: flex;
 
+  color: var(--font-color);
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 275px;
+  margin-bottom: 275px;
+}

@@ -1,34 +1,27 @@
 .navigation_container {
-    background-color: var(--nav-color);
-    color: white;
-    
-    
+  background-color: var(--nav-color);
+  color: white;
 }
 
-.navbar-light .navbar-nav .nav-link{
-    color: var(--font-color) !important;
-    color: var(--font-color) !important;
-    margin: 0 1rem;
+.navbar-light .navbar-nav .nav-link {
+  color: var(--font-color) !important;
+  color: var(--font-color) !important;
+  margin: 0 1rem;
 }
 .navbar-light .navbar-brand {
-    color: var(--font-color) !important;
-    margin-left: 1rem;
-
+  color: var(--font-color) !important;
+  margin-left: 1rem;
 }
 
 .navbar-light .navbar-collapse {
-    justify-content: flex-end;
-    margin-right: 1rem;
-    border-color: none;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  border-color: none;
 }
 
 .navbar-light .navbar-toggler-icon {
-    filter: invert(1);
-
+  filter: invert(1);
 }
 .links a:hover {
-    background-color: var(--font-color-hover);
+  background-color: var(--font-color-hover);
 }
-
-
-

@@ -1,35 +1,35 @@
 .main-slide {
-    padding-top: 30px;
-   
+  padding-top: 30px;
 }
 
-.carousel .slider-wrapper{
-    width: 50%;
+.carousel .slider-wrapper {
+  width: 50%;
 }
 
-.carousel .thumb{
-
-    height:50%;
+.carousel .thumb {
+  height: 50%;
 }
 
-img{
-    max-height: 600px;
-    max-width: 600px;
+img {
+  max-height: 600px;
+  max-width: 600px;
 }
 
 .carousel {
-    text-align: center;
+  text-align: center;
 }
 
-.carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover{
-    width: 25%;
+.carousel .control-next.control-arrow,
+.carousel .control-next.control-arrow:hover {
+  width: 25%;
 }
 
-.carousel .control-prev.control-arrow, .carousel .control-prev.control-arrow:hover {
-    width: 25%;
+.carousel .control-prev.control-arrow,
+.carousel .control-prev.control-arrow:hover {
+  width: 25%;
 }
 
-.project-text  {
-    text-align: center;
-    color: var(--font-color);
+.project-text {
+  text-align: center;
+  color: var(--font-color);
 }
