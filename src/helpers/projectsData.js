@@ -1,6 +1,6 @@
-import cat from '../images/projectsImages/1.png'
-import mouse from '../images/projectsImages/2.png'
-import koala from '../images/projectsImages/3.png'
+import cat from '../images/projectsImages/3.png'
+import mouse from '../images/projectsImages/1.png'
+import koala from '../images/projectsImages/2.png'
 import squirrel from '../images/projectsImages/4.png'
 
 const projectsData = [

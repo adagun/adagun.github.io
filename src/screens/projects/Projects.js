@@ -9,7 +9,7 @@ function Projects() {
     <div>
       <div className="project-text">
         <h1>Projects</h1>
-        <h1></h1>
+      
       </div>
       <Carousel
         className="main-slide"
