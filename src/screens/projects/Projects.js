@@ -4,12 +4,12 @@ import { Carousel } from "react-responsive-carousel";
 import "./projects.css";
 import projectsData from "../../helpers/projectsData";
 
+
 function Projects() {
   return (
     <div>
       <div className="project-text">
         <h1>Projects</h1>
-      
       </div>
       <Carousel
         className="main-slide"
@@ -21,7 +21,10 @@ function Projects() {
         {projectsData.map((project, index) => (
           <div>
             <img src={project.image} alt={project.title} />
-            <p className="legend">{project.summary}</p>
+
+            <a href="{project.link}">
+              <p className="legend">{project.summary}</p>
+            </a>
           </div>
         ))}
       </Carousel>
