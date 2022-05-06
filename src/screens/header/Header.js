@@ -7,7 +7,7 @@ function Header() {
       <h1>Hello</h1>
       <Typed className="typed-text"
         strings={[
-          "Hello",
+          "Under construction...",
           "",
           "",
         ]}
