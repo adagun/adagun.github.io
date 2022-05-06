@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div>
       <div className="project-text">
-        <h1>Projects</h1>
+        <h1>Project Placeholders</h1>
       </div>
       <Carousel
         className="main-slide"
@@ -22,7 +22,7 @@ function Projects() {
           <div>
             <img src={project.image} alt={project.title} />
 
-            <a href="{project.link}">
+            <a href={project.link}>
               <p className="legend">{project.summary}</p>
             </a>
           </div>

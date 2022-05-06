@@ -5,15 +5,16 @@ function Header() {
   return (
     <div className="main-text">
       <h1>Hello</h1>
-      <Typed
+      <Typed className="typed-text"
         strings={[
-          "Search for products",
-          "Search for categories",
-          "Search for brands",
+          "Hello",
+          "",
+          "",
         ]}
-        typeSpeed={40}
-        backSpeed={50}
+        typeSpeed={100}
+        backSpeed={100}
         loop
+        showCursor={false}
       />
     </div>
   );

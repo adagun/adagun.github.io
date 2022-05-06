@@ -12,4 +12,10 @@
   align-items: center;
   margin-top: 275px;
   margin-bottom: 275px;
+
+}
+
+.typed-text {
+  min-height: 24px;  
+
 }
