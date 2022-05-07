@@ -29,7 +29,7 @@ const particleConfig = {
   },
   detectRetina: true,
   duration: 0,
-  fpsLimit: 60,
+  fpsLimit: 30,
   interactivity: {
     detectsOn: "window",
     events: {

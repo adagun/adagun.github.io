@@ -26,7 +26,7 @@ const particleConfig = {
   },
   detectRetina: true,
   duration: 0,
-  fpsLimit: 60,
+  fpsLimit: 30,
   interactivity: {
     detectsOn: "window",
     events: {
@@ -572,47 +572,6 @@ const particleConfig = {
       mode: "percent",
       height: 0,
       width: 0,
-    },
-    particles: {
-      shape: {
-        type: "images",
-        options: {
-          images: {
-            src: "https://particles.js.org/images/cyan_amongus.png",
-            width: 500,
-            height: 634,
-          },
-        },
-      },
-      size: {
-        value: 40,
-      },
-      move: {
-        speed: 10,
-        outModes: {
-          default: "none",
-          right: "destroy",
-        },
-        straight: false,
-      },
-      zIndex: {
-        value: 0,
-      },
-      rotate: {
-        value: {
-          min: 0,
-          max: 360,
-        },
-        animation: {
-          enable: true,
-          speed: 10,
-          sync: true,
-        },
-      },
-    },
-    position: {
-      x: 0,
-      y: 400,
     },
   },
 };

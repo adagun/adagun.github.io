@@ -1,6 +1,7 @@
 import React from "react";
 import "./github.css";
 import github from "../../images/github.png";
+import GitParticlesBackground from "../../components/GitParticlesBackground";
 function Github() {
   return (
     <div className="github_container" id="github">
@@ -11,6 +12,9 @@ function Github() {
       </div>
       <div className="github_text">
         <h1>Github</h1>
+        <div >
+         
+        </div>
       </div>
     </div>
   );
