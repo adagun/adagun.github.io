@@ -1,7 +1,7 @@
 import React from "react";
 import "./github.css";
 import github from "../../images/github.png";
-import GitParticlesBackground from "../../components/GitParticlesBackground";
+
 function Github() {
   return (
     <div className="github_container" id="github">

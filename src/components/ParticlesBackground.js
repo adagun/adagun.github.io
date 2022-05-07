@@ -31,4 +31,3 @@ export default function ParticleBackground() {
   );
 }
 
-//  options={{particlesConfig}}
