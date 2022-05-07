@@ -1,6 +1,7 @@
 import "./App.css";
 import Navigation from "./screens/navigationBar/NavigationBar";
 import ParticlesBackground from "./components/ParticlesBackground";
+import GitParticlesBackground from "./components/GitParticlesBackground";
 import Header from "./screens/header/Header";
 import Github from "./screens/github/Github";
 import Projects from "./screens/projects/Projects";
@@ -14,12 +15,13 @@ function App() {
       <div className="App">
         <Navigation />
         <Routes>
-          <Route exact path="/" element={<Header />} />
-          <Route exact path="/github" element={<Github />} />
-          <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/" element={<><Header/><ParticlesBackground/></>} />
+          <Route exact path="/github" element={<><Github/><GitParticlesBackground/></>} />
+          
+          <Route exact path="/projects" element={<><Projects/><ParticlesBackground/></>} />
         </Routes>
         {/*  <Footer />*/}
-        <ParticlesBackground />
+    
       </div>
     </MemoryRouter>
   );
@@ -27,4 +29,4 @@ function App() {
 
 export default App;
 
-
+// todo git particles / other pages particles

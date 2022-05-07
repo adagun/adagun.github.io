@@ -1,3 +1,6 @@
+const GIT_IMAGE =
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/240px-Octicons-mark-github.svg.png";
+
 const particleConfig = {
   autoPlay: true,
   background: {
@@ -194,7 +197,7 @@ const particleConfig = {
       },
     },
     color: {
-      value: "#777",
+      value: "#fff",
       animation: {
         h: {
           count: 0,
@@ -482,11 +485,12 @@ const particleConfig = {
       },
     },
     shape: {
-      type: "circle",
+      type: "images",
       options: {
-        images: {          
-          width: 24,
-          height: 24,
+        images: {
+          src: GIT_IMAGE,
+          width: 240,
+          height: 240,
         },
       },
     },
@@ -495,7 +499,7 @@ const particleConfig = {
         enable: false,
         minimumValue: 1,
       },
-      value: 2,
+      value: 20,
       animation: {
         count: 0,
         enable: false,
