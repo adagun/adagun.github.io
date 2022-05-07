@@ -22,7 +22,7 @@ const projectsData = [
         image: c19,
         link: 'https://c19-dashboard.herokuapp.com/',
         title: 'Covid-19 Dashboard',
-        summary: 'Sweden Covid-19 Statistics built with Python Potly/Dash',
+        summary: 'Sweden Covid-19 Statistics built with Python Plotly/Dash',
          },
 
 
