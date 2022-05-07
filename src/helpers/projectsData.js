@@ -1,37 +1,30 @@
-import cat from '../images/projectsImages/3.png'
-import mouse from '../images/projectsImages/1.png'
-import koala from '../images/projectsImages/2.png'
-import squirrel from '../images/projectsImages/4.png'
+import calc from '../images/projectsImages/calculator.png'
+import qr from '../images/projectsImages/qr_creator.png'
+import c19 from '../images/projectsImages/c19.png'
+
 
 const projectsData = [
     {
-        image: cat,
-        link: 'http://localhost:3000/',
-        title: 'Cat',
-        summary: 'Just a picture of a cat'
+        image: calc,
+        link: '/react-calc/',
+        title: 'Calculator',
+        summary: 'Simple calculator built with React'
        
     },
     {
-        image: mouse,
-        link: 'http://localhost:3000/',
-        title: 'Mouse',
-        summary: 'Just a picture of a Mouse'
+        image: qr,
+        link: '/qr_creactor/',
+        title: 'QR Creator',
+        summary: 'Convert text to QR Codes'
        
     },
     {
-        image: koala,
-        link: 'http://localhost:3000/',
-        title: 'koala',
-        summary: 'Just a picture of a koala'
-       
-    },
-    {
-        image: squirrel,
-        link: 'http://localhost:3000/',
-        title: 'squirrel',
-        summary: 'Just a picture of a squirrel'
-       
-    }
+        image: c19,
+        link: 'https://c19-dashboard.herokuapp.com/',
+        title: 'Covid-19 Dashboard',
+        summary: 'Sweden Covid-19 Statistics built with Python Potly/Dash',
+         },
+
 
 ]
 

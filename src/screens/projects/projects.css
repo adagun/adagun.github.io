@@ -3,7 +3,7 @@
 }
 
 .carousel .slider-wrapper {
-  width: 50%;
+  width: 40%;
 }
 
 .carousel .thumb {
@@ -11,9 +11,10 @@
 }
 
 img {
-  margin-bottom: 10vh;
-  max-height: 500px;
-  max-width: 500px;
+  margin-bottom: 13vh;
+  max-height: 250px;
+  max-width: 250px;
+  
 }
 
 .carousel {
@@ -30,7 +31,24 @@ img {
   width: 25%;
 }
 
-.project-text {
+.project-text{
   text-align: center;
   color: var(--font-color);
+  
 }
+
+.title-text {
+  color: var(--font-color);
+  background-color: hsla(192, 73%, 25%, 0.856);
+  padding: 1rem 3rem;
+  margin-bottom: 1vh;
+  text-align: center;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+
+}
+.title-text:hover {
+  background-color: hsl(192, 73%, 32%);
+  color: white;
+}
+
