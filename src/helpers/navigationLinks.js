@@ -1,18 +1,18 @@
 export const navigationLinks = [
   {
     name: "HOME",
-    red: "#home",
+    ref: "#home",
   },
   {
     name: "GITHUB",
-    red: "#github",
+    ref: "#github",
   },
   {
     name: "PROJECTS",
-    red: "#projects",
+    ref: "#projects",
   },
   {
     name: "CONTACT",
-    red: "#contact",
+    ref: "#contact",
   },
 ];
