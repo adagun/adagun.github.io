@@ -13,7 +13,7 @@ const projectsData = [
     },
     {
         image: qr,
-        link: '/qr_creactor/',
+        link: '/qr_creator/',
         title: 'QR Creator',
         summary: 'Convert text to QR Codes'
        
