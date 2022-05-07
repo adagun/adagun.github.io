@@ -3,8 +3,14 @@
   color: white;
 }
 
+.navigation
+{
+  margin-bottom: 15vh;
+}
+
+
+
 .navbar-light .navbar-nav .nav-link {
-  color: var(--font-color) !important;
   color: var(--font-color) !important;
   margin: 0 1rem;
 }
@@ -21,6 +27,15 @@
 
 .navbar-light .navbar-toggler-icon {
   filter: invert(1);
+}
+
+.links{
+  color: var(--font-color) !important;
+  border-color: none;
+  margin: 0 1rem;
+  text-decoration: none;
+
+
 }
 .links a:hover {
   background-color: var(--font-color-hover);

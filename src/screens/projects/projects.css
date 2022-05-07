@@ -1,5 +1,5 @@
 .main-slide {
-  padding-top: 30px;
+  padding-top: 8vh;
 }
 
 .carousel .slider-wrapper {
@@ -10,11 +10,12 @@
   height: 50%;
 }
 
+
+
 img {
   margin-bottom: 13vh;
   max-height: 250px;
   max-width: 250px;
-  
 }
 
 .carousel {
@@ -23,18 +24,17 @@ img {
 
 .carousel .control-next.control-arrow,
 .carousel .control-next.control-arrow:hover {
-  width: 25%;
+  width: 30%;
 }
 
 .carousel .control-prev.control-arrow,
 .carousel .control-prev.control-arrow:hover {
-  width: 25%;
+  width: 30%;
 }
 
-.project-text{
+.project-text {
   text-align: center;
   color: var(--font-color);
-  
 }
 
 .title-text {
@@ -45,7 +45,6 @@ img {
   text-align: center;
   border-radius: 10px;
   transition-duration: 0.4s;
-
 }
 .title-text:hover {
   background-color: hsl(192, 73%, 32%);

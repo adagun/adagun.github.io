@@ -6,7 +6,7 @@ import projectsData from "../../helpers/projectsData";
 
 function Projects() {
   return (
-    <div id='projects'>
+    <div id="projects">
       <div className="project-text"></div>
       <Carousel
         className="main-slide"
