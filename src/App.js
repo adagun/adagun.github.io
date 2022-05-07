@@ -7,10 +7,10 @@ import Projects from "./screens/projects/Projects";
 import Footer from "./components/Footer";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import { MemoryRouter } from 'react-router'
 function App() {
   return (
-    <Router>
+    <MemoryRouter>
       <div className="App">
         <Navigation />
         <Routes>
@@ -21,7 +21,7 @@ function App() {
         {/*  <Footer />*/}
         <ParticlesBackground />
       </div>
-    </Router>
+    </MemoryRouter>
   );
 }
 

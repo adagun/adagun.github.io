@@ -27,7 +27,7 @@ function NavigationBar() {
 function createLinks() {
   return navigationLinks.map((element, index) => (
     
-      <Link className="links" key={index} to={element.ref}>{element.name}</Link>
+      <Link className="links" id={index} to={element.ref}>{element.name}</Link>
       
     
   ));

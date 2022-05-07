@@ -24,7 +24,7 @@ function Projects() {
 
               <img src={project.image} alt={project.title} />
             </a>
-            <p class="legend">{project.summary}</p>
+            <p className="legend">{project.summary}</p>
           </div>
         ))}
       </Carousel>
