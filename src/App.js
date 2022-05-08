@@ -1,7 +1,7 @@
 import "./App.css";
 import Navigation from "./screens/navigationBar/NavigationBar";
 import ParticlesBackground from "./components/ParticlesBackground";
-import Header from "./screens/header/Header";
+import Home from "./screens/home/Home";
 import Github from "./screens/github/Github";
 import Projects from "./screens/projects/Projects";
 import Footer from "./components/Footer";
@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <Navigation />
         <Routes>
-          <Route exact path="/" element={<Header/>} />
+          <Route exact path="/" element={<Home/>} />
           <Route exact path="/github" element={<Github/>} />
           
           <Route exact path="/projects" element={<Projects/>} />
