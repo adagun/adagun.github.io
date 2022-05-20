@@ -1,6 +1,7 @@
 import calc from '../images/projectsImages/calculator.png'
 import qr from '../images/projectsImages/qr_creator.png'
 import c19 from '../images/projectsImages/c19.png'
+import notes from '../images/projectsImages/notes.png'
 
 
 const projectsData = [
@@ -23,6 +24,12 @@ const projectsData = [
         link: 'https://c19-dashboard.herokuapp.com/',
         title: 'Covid-19 Dashboard',
         summary: 'Sweden Covid-19 Statistics built with Python Plotly/Dash',
+         },
+             {
+        image: notes,
+        link: 'https://django-notesapp.herokuapp.com/',
+        title: 'NotesApp',
+        summary: 'Create and view simple notes. Built with Django, hosted on heroku',
          },
 
 
